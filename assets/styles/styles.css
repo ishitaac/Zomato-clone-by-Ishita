@@ -76,6 +76,7 @@ header div.search-box{
     background-color: #fff;
     width: 70%;
     border-radius: 10px;
+    
 }
 header div.search-box div.select i{
     color: #F57082;
@@ -94,6 +95,8 @@ header div.search-box div.input{
 }
 header div.search-box div.input input{
     width: 100%;
+    align-self: center;
+    font-size: 1rem;
 }
 div.search-box div{
     display: flex;
@@ -212,13 +215,48 @@ section.app div.form div.download{
     padding:2px;
 }
 
-section.app div.form div.download div{
+/* section.app div.form div.download div{
     margin: 5px;
-}
+} */
 section.app div.form div.download div img{
     max-width:150px;
     display:inline-block;
-    margin-top: 5px;
+    margin-top: 17px;
     margin-right: 5px;
-    margin-left: 0px;
 }
+
+/* section options */
+
+section.options{
+    min-height: 60vh;
+
+}
+section.options div.container{
+    width: 90%;
+    margin: 30px auto;
+    
+}
+
+section.options div.container h2{
+    font-size: 2rem;
+    
+}
+section.options div.container h3{
+    font-size: 1.6rem;  
+}
+
+section.options div.container div{
+    margin-top:40px;
+}
+section.options div.container div ul{
+    margin-top:20px;
+    padding:20px;
+    display:flex;
+    flex-wrap: wrap;
+}
+ section.options div.container div ul li{
+     margin:3px 10px;
+     color:grey;
+     font-size: 1.1rem;
+     font-weight: 100;
+ }
